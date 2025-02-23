@@ -1,4 +1,7 @@
 package com.heyanbo.testexpowithpushy
+// @generated begin react-native-update-import - expo prebuild (DO NOT MODIFY) sync-cc1594718035f2790e8316ee695e8f6a610f08f5
+import cn.reactnative.modules.update.UpdateContext
+// @generated end react-native-update-import
 
 import android.app.Application
 import android.content.res.Configuration
@@ -29,6 +32,8 @@ class MainApplication : Application(), ReactApplication {
           }
 
           override fun getJSMainModuleName(): String = ".expo/.virtual-metro-entry"
+
+          override fun getJSBundleFile(): String? = UpdateContext.getBundleUrl(this@MainApplication)
 
           override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
 

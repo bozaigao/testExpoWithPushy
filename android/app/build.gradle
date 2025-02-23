@@ -86,7 +86,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.testexpowithpushy"
+    namespace 'com.heyanbo.testexpowithpushy'
     defaultConfig {
         applicationId 'com.heyanbo.testexpowithpushy'
         minSdkVersion rootProject.ext.minSdkVersion

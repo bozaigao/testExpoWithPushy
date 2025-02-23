@@ -1,6 +1,9 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
+// @generated begin react-native-update-header - expo prebuild (DO NOT MODIFY) sync-658b9bc60884cb55c2f08138d8979e01e76d8ffc
+#import "RCTPushy.h"
+// @generated end react-native-update-header
 #import <React/RCTLinkingManager.h>
 
 @implementation AppDelegate
@@ -26,7 +29,7 @@
 #if DEBUG
   return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@".expo/.virtual-metro-entry"];
 #else
-  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+  return [RCTPushy bundleURL];
 #endif
 }
 
