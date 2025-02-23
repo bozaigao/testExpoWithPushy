@@ -1,0 +1,8 @@
+{
+  "android": {
+    "package": "com.heyanbo.testexpowithpushy"
+  },
+  "ios": {
+    "bundleIdentifier": "com.heyanbo.testexpowithpushy"
+  }
+}
