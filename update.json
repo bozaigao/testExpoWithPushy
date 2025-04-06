@@ -1,14 +1,14 @@
 {
-  "ios": {
-    "appId": 29260,
-    "appKey": "hzD65aOnvIrrEwPi2Srmv9qw"
-  },
-  "android": {
-    "appId": 27509,
-    "appKey": "aQz3Uc2pA7gt_prDaQ4rbWRY"
-  },
-  "harmony": {
-    "appId": 29140,
-    "appKey": "JLklGflGIRbY-cMebjQwm1J1"
-  }
+    "ios": {
+        "appId": 29344,
+        "appKey": "X9G4VZt_ALYjQAGS3EyB7a1M"
+    },
+    "android": {
+        "appId": 29413,
+        "appKey": "vdZWPXU6eyaPE6Avk96-YvwK"
+    },
+    "harmony": {
+        "appId": 29140,
+        "appKey": "JLklGflGIRbY-cMebjQwm1J1"
+    }
 }
